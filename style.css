@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+.wrapper {
+    width: 100%;
+}
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    border-radius: 5px 5px 0px 0px;
+    height: 70%;
+    width: 90%;
+    z-index: 1;
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 115%;
+    left: 50%;
+    height: 70%;
+    width: 90%;
+    z-index: 1;
+}
+.luxury {
+    background-color:hsl(179, 100%, 13%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 185%;
+    left: 50%;
+    height: 70%;
+    width: 90%;
+    z-index: 1;
+}
+.sedan-t h1, p{
+    position: absolute;
+    left: 15%;
+}
+.sedan-t h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 10vw;
+    color: hsl(0, 0%, 95%);
+    top: 30%;
+}
+.sedan-t p {
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 5vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    left: 44%;
+}
+.sedan-button P{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    height: 10%;
+    width: 40%;
+    top: 82%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+.suv-t h1, p{
+    position: absolute;
+    left: 15%;
+}
+.suv-t h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 10vw;
+    color: hsl(0, 0%, 95%);
+    top: 30%;
+}
+.suv-t p {
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 5vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    left: 44%;
+}
+.suv-button P{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    height: 10%;
+    width: 40%;
+    top: 82%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+.luxury-t h1, p{
+    position: absolute;
+    left: 15%;
+}
+.luxury-t h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 10vw;
+    color: hsl(0, 0%, 95%);
+    top: 30%;
+}
+.luxury-t p {
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 5vw;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    left: 44%;
+}
+.luxury-button P{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    height: 10%;
+    width: 40%;
+    top: 82%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+.sedan-img {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.SUV-img {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.Luxury-img {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .sedan {
+        top: 50%;
+        left: 30%;
+        border-radius: 5px 0px 0px 5px;
+        height: 60%;
+        width: 20%;
+    }
+    .suv {
+        top: 50%;
+        left: 50%;
+        height: 60%;
+        width: 20%;
+    }
+    .luxury {
+        top: 50%;
+        left: 70%;
+        border-radius: 0px 5px 5px 0px;
+        height: 60%;
+        width: 20%;
+    }
+    .sedan-t h1, p{
+        position: absolute;
+        left: 15%;
+    }
+    .sedan-t h1 {
+        font-size: 3vw;
+        top: 30%;
+    }
+    .sedan-t p {
+        font-size: 1vw;
+        top: 56%;
+        transform: translate(-50%, -50%);
+        left: 44%;
+    }
+    .sedan-button P{
+        font-size: 15px;
+        height: 10%;
+        width: 40%;
+        top: 72%;
+        border-radius: 20px;
+    }
+    .suv-t h1, p{
+        position: absolute;
+        left: 15%;
+    }
+    .suv-t h1 {
+        font-size: 3vw;
+        top: 30%;
+    }
+    .suv-t p {
+        font-size: 1vw;
+        top: 56%;
+        transform: translate(-50%, -50%);
+        left: 44%;
+    }
+    .suv-button P{
+        font-size: 15px;
+        height: 10%;
+        width: 40%;
+        top: 72%;
+    }
+    .luxury-t h1, p{
+        position: absolute;
+        left: 15%;
+    }
+    .luxury-t h1 {
+        font-size: 3vw;
+        top: 30%;
+    }
+    .luxury-t p {
+        font-size: 1vw;
+        top: 56%;
+        left: 44%;
+    }
+    .luxury-button P{
+        font-size: 15px;
+        height: 10%;
+        width: 40%;
+        top: 72%;
+        border-radius: 20px;
+    }
+}
